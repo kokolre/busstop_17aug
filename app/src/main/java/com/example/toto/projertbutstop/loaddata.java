@@ -7,18 +7,18 @@ import android.os.Bundle;
 
 public class loaddata extends AppCompatActivity {
 
-    private Handler handler;
-    private Runnable runnable;
+    /*private Handler handler;
+    private Runnable runnable;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //getSupportActionBar().hide(); // ลบแทบด้านบนของแอปพลิเคชั่น
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loaddata);
-        relode();
+        /*relode();*/
     }
 
-    private void relode() {
+    /*private void relode() {
         handler = new Handler();
 
         runnable = new Runnable() {
@@ -38,5 +38,5 @@ public class loaddata extends AppCompatActivity {
     public void onStop() {
         super.onStop();
         handler.removeCallbacks(runnable);
-    }
+    }*/
 }
