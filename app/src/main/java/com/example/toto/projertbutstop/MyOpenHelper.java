@@ -26,7 +26,7 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             "direction text , " +
             "bus text, " +
             "bus_details text ," +
-            " Namebusstop text, " +
+            "Namebusstop text, " +
             "Lat text, " +
             "Lng text);";
 
